@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tienda Vector Creativos · Productos promocionales y de impresión." />
+  <title>Vector Creativos | Tienda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="tienda">
+
+  <div id="site-header"></div>
+
+  <main class="page-main">
+    <section class="page-intro">
+      <div class="container page-intro__inner reveal">
+        <span class="eyebrow">Tienda B2C</span>
+        <h1>Productos destacados para <span>compra rápida</span></h1>
+        <p>Catálogo de impresión, textiles, tazas, oficina y kits corporativos. Precios de referencia; cotiza por cantidad y personalización.</p>
+      </div>
+    </section>
+
+    <section class="section section--compact" id="tienda">
+      <div class="container">
+        <div class="shop-toolbar reveal">
+          <label class="shop-search">
+            <span class="shop-search__icon" aria-hidden="true">🔍</span>
+            <input type="search" placeholder="Buscar producto o categoría" aria-label="Buscar producto" />
+          </label>
+          <button type="button" class="shop-filter">Categorías</button>
+          <button type="button" class="shop-filter">Filtrar</button>
+        </div>
+
+        <div class="shop-pills reveal" id="shopPills">
+          <button type="button" class="pill is-active">Destacados</button>
+          <button type="button" class="pill">Textiles</button>
+          <button type="button" class="pill">Tazas y vasos</button>
+          <button type="button" class="pill">Oficina y escolar</button>
+          <button type="button" class="pill">Impresión</button>
+          <button type="button" class="pill">Edición especial</button>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card reveal" data-category="impresion" data-featured>
+            <div class="product-card__image"><span>Tarjetas</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Impresión</span>
+              <h3>Tarjetas de presentación</h3>
+              <p>Full color por una o ambas caras. Papel esmaltado 300 g brillante. 1.000 unds. No incluye diseño gráfico.</p>
+              <strong class="product-card__price">Desde $80.000 · 1.000 unds $150.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="impresion" data-featured>
+            <div class="product-card__image"><span>Imantadas</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Impresión</span>
+              <h3>Imantadas troqueladas</h3>
+              <p>Propalcote 300 g, lámina imán calibre 13, 9×5 cm, impresión 4×0. Troqueladas o sin troquelar.</p>
+              <strong class="product-card__price">Desde $60.000 · 500 unds $230.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="impresion">
+            <div class="product-card__image"><span>Volantes</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Impresión</span>
+              <h3>Volantes</h3>
+              <p>Propalcote 150 g, media carta 22×14 cm. Full color 1 o 2 caras. 1.000 unds. No incluye diseño gráfico.</p>
+              <strong class="product-card__price">$110.000 (1 cara) · $160.000 (2 caras)</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="impresion">
+            <div class="product-card__image"><span>Plegables</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Impresión</span>
+              <h3>Plegables / brochure</h3>
+              <p>Propalcote 150 g, offset 4×4 full color. Tamaño carta u oficio. Plegado díptico o tríptico, sin plastificar.</p>
+              <strong class="product-card__price">500 unds $380.000 · 1.000 unds $410.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="textiles">
+            <div class="product-card__image"><span>Camisetas</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Textiles</span>
+              <h3>Camisetas</h3>
+              <p>100% algodón. Tallas S, M, L y XL. Colores: blanco, negro y gris. Personalizadas según cantidad.</p>
+              <strong class="product-card__price">Desde $25.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="textiles" data-featured>
+            <div class="product-card__image"><span>Gorras</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Textiles</span>
+              <h3>Gorras</h3>
+              <p>100% poliéster, paño acrílico. Bordado o estampado. Colores: blanco, negro, rojo y gris.</p>
+              <strong class="product-card__price">Desde $9.000 · desde 50 unds</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="textiles">
+            <div class="product-card__image"><span>Bolsa de tela</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Textiles</span>
+              <h3>Bolsa de tela</h3>
+              <p>Poliéster, madre selva, algodón o lona muisca. 30×35 cm. Colores: blanco, crudo y marfil.</p>
+              <strong class="product-card__price">Cotiza por cantidad</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tazas" data-featured>
+            <div class="product-card__image"><span>Tazas</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Tazas y vasos</span>
+              <h3>Tazas cerámicas</h3>
+              <p>Cerámica 9,5×8 cm. Blanco, color interno, metalizados y glitter. Personalizadas según cantidad.</p>
+              <strong class="product-card__price">Desde $12.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tazas">
+            <div class="product-card__image"><span>Vaso térmico</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Tazas y vasos</span>
+              <h3>Vaso térmico</h3>
+              <p>Acero inoxidable 21×12 cm. Metalizado en blanco, negro y gris.</p>
+              <strong class="product-card__price">$45.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="tazas">
+            <div class="product-card__image"><span>Botilito lata</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Tazas y vasos</span>
+              <h3>Botilito lata sublimación</h3>
+              <p>Aluminio, 6,2 cm diámetro, capacidad 300 ml. Color blanco.</p>
+              <strong class="product-card__price">Desde $16.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="oficina">
+            <div class="product-card__image"><span>Cuaderno</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Oficina y escolar</span>
+              <h3>Cuaderno</h3>
+              <p>Cartón, libretas, tapa dura anillado. 14,8×21 cm. Color blanco.</p>
+              <strong class="product-card__price">Desde 30 unds · cotiza por cantidad</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="oficina">
+            <div class="product-card__image"><span>Bolígrafo</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Oficina y escolar</span>
+              <h3>Bolígrafo</h3>
+              <p>Aluminio 6×2 cm. Metalizado: blanco, azul y gris. Desde 50 unidades, 1 tinta.</p>
+              <strong class="product-card__price">Cotiza por cantidad</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="oficina" data-featured>
+            <div class="product-card__image"><span>Termo</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Oficina y escolar</span>
+              <h3>Termo</h3>
+              <p>Acero inoxidable 20×9 cm. Blanco con tapa de metal. Técnica sublimación o DTF UV.</p>
+              <strong class="product-card__price">$16.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="edicion">
+            <div class="product-card__image"><span>Rompecabezas</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Edición especial</span>
+              <h3>Rompecabezas</h3>
+              <p>Cartón rígido 210×297 mm (48 piezas). Base blanca.</p>
+              <strong class="product-card__price">$12.000</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="edicion" data-featured>
+            <div class="product-card__image"><span>Kit café</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Edición especial</span>
+              <h3>Kit café</h3>
+              <p>Prensa francesa, mug peltré 240 ml, frase, chocolates, bolsa yute estampada y caja sticker.</p>
+              <strong class="product-card__price">$80.000 personalizado</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-category="edicion">
+            <div class="product-card__image"><span>Kit relax</span></div>
+            <div class="product-card__body">
+              <span class="product-card__tag">Edición especial</span>
+              <h3>Kit relax</h3>
+              <p>Toalla facial, gel frío para ojos, vela artesanal aromática y masajeador facial en jade. Caja con tarjeta y etiqueta.</p>
+              <strong class="product-card__price">Cotizar · desde 6 unds</strong>
+              <div class="product-card__actions">
+                <button type="button" class="btn btn-primary btn-sm js-open-quote">Consultar</button>
+                <button type="button" class="btn btn-outline btn-sm js-open-quote">Cotizar</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="banner-cta reveal">
+          <p>¿Necesitas una solución personalizada para tu empresa?</p>
+          <a href="empresas.html" class="btn btn-primary">Ver soluciones B2B</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="site-modal"></div>
+  <script src="layout.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
